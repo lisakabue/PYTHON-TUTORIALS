@@ -1,0 +1,12 @@
+Results for: inurl:login
+/httpservice/retry/enablejs?sei=bynAad-cKp7uhbIPyYH3-QY
+https://support.google.com/websearch
+
+Results for: filetype:pdf OR filetype:doc
+/httpservice/retry/enablejs?sei=cinAaYOnKJ_BhbIPqb_4yA8
+https://support.google.com/websearch
+
+Results for: intitle:index.of mysql
+/httpservice/retry/enablejs?sei=dSnAae_qLOWmhbIPwM_b0Q8
+https://support.google.com/websearch
+

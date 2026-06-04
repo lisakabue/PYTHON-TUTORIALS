@@ -1,0 +1,21 @@
+{
+  "malicious_ips": [
+    "src=192.168.4.25",
+    "dst=10.0.0.20",
+    "src=10.0.0.23",
+    "src=203.0.113.5",
+    "src=10.0.0.24",
+    "src=10.0.0.28",
+    "src=10.0.0.29",
+    "src=203.0.113.50"
+  ],
+  "malicious_ports": [
+    22,
+    443,
+    445
+  ],
+  "malicious_urls": [
+    "http://phishing-site.com",
+    "http://malicious-download.com/malware.exe"
+  ]
+}

@@ -1,0 +1,63 @@
+<decoder name="apt29-logs-parent">
+    <prematch>CEF:0|Company|Wazuh|1.0</prematch>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>dvc=(\S+)</regex> <!-- Extract device IP (dvc) -->
+    <order>device</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>src=(\S+)</regex> <!-- Extract source IP (src) -->
+    <order>srcip</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>dst=(\S+)</regex> <!-- Extract destination IP (dst) -->
+    <order>dstip</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>dhost=(\S+)</regex> <!-- Extract destination host (dhost) -->
+    <order>dhost</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>suser=(\S+)</regex> <!-- Extract source user (suser) -->
+    <order>username</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>duser=(\S+)</regex> <!-- Extract destination user (duser) -->
+    <order>duser</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>msg="([^"]+)"</regex> <!-- Extract message field (msg) -->
+    <order>message</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>act=(\S+)</regex> <!-- Extract action (act) -->
+    <order>action</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>cs1="([^"]+)"</regex> <!-- Extract custom field 1 (cs1) -->
+    <order>cs1</order>
+</decoder>
+
+<decoder name="apt29-logs">
+    <parent>apt29-logs-parent</parent>
+    <regex>cs2="([^"]+)"</regex> <!-- Extract custom field 2 (cs2) -->
+    <order>cs2</order>
+</decoder>

@@ -1,0 +1,20 @@
+[
+  {
+    "log_entry": "src=192.168.4.25 dst=10.0.0.20 spt=445 dpt=445 http://phishing-site.com"
+  },
+  {
+    "log_entry": "src=192.168.4.25 dst=10.0.0.20 spt=445 dpt=445 http://phishing-site.com"
+  },
+  {
+    "log_entry": "src=192.168.4.25 dst=10.0.0.20 spt=445 dpt=445 http://phishing-site.com"
+  },
+  {
+    "log_entry": "src=192.168.4.25 dst=10.0.0.20 spt=445 dpt=445 http://phishing-site.com"
+  },
+  {
+    "log_entry": "src=192.168.4.25 dst=10.0.0.20 spt=445 dpt=445 http://phishing-site.com"
+  },
+  {
+    "log_entry": "src=192.168.4.25 dst=10.0.0.20 spt=445 dpt=445 http://phishing-site.com"
+  }
+]

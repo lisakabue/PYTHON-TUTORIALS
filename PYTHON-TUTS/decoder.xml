@@ -1,0 +1,68 @@
+<decoders>
+
+  <!-- Parent -->
+  <decoder name="apt29-logs-parent">
+    <prematch>^CEF:0\|Company\|Wazuh\|1\.0</prematch>
+  </decoder>
+
+  <decoder name="apt29-device">
+    <parent>apt29-logs-parent</parent>
+    <regex>dvc=(\S+)</regex>
+    <order>device</order>
+  </decoder>
+
+  <decoder name="apt29-srcip">
+    <parent>apt29-logs-parent</parent>
+    <regex>src=(\S+)</regex>
+    <order>srcip</order>
+  </decoder>
+
+  <decoder name="apt29-dstip">
+    <parent>apt29-logs-parent</parent>
+    <regex>dst=(\S+)</regex>
+    <order>dstip</order>
+  </decoder>
+
+  <decoder name="apt29-dhost">
+    <parent>apt29-logs-parent</parent>
+    <regex>dhost=(\S+)</regex>
+    <order>dhost</order>
+  </decoder>
+
+  <decoder name="apt29-suser">
+    <parent>apt29-logs-parent</parent>
+    <regex>suser=(\S+)</regex>
+    <order>username</order>
+  </decoder>
+
+  <decoder name="apt29-duser">
+    <parent>apt29-logs-parent</parent>
+    <regex>duser=(\S+)</regex>
+    <order>duser</order>
+  </decoder>
+
+  <decoder name="apt29-message">
+    <parent>apt29-logs-parent</parent>
+    <regex>msg="([^"]+)"</regex>
+    <order>message</order>
+  </decoder>
+
+  <decoder name="apt29-action">
+    <parent>apt29-logs-parent</parent>
+    <regex>act=(\S+)</regex>
+    <order>action</order>
+  </decoder>
+
+  <decoder name="apt29-cs1">
+    <parent>apt29-logs-parent</parent>
+    <regex>cs1="([^"]+)"</regex>
+    <order>cs1</order>
+  </decoder>
+
+  <decoder name="apt29-cs2">
+    <parent>apt29-logs-parent</parent>
+    <regex>cs2="([^"]+)"</regex>
+    <order>cs2</order>
+  </decoder>
+
+</decoders>

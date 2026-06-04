@@ -1,0 +1,16 @@
+OTX Threat Intelligence Report
+========================================
+
+Pulse Name: Demo Pulse 1
+Tags: phishing, malware
+Priority: HIGH
+Indicators:
+  - 1.2.3.4 (IPv4)
+  - bad.com (domain)
+------------------------------
+Pulse Name: Demo Pulse 2
+Tags: spam
+Priority: LOW
+Indicators:
+  No indicators found.
+------------------------------
